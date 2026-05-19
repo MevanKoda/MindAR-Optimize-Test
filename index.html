@@ -11,9 +11,7 @@
 <body>
     <a-scene
   mindar-image="imageTargetSrc: ./targets.mind; maxTrack:1;
-   filterMinCF:0.05; filterBeta: 0.05;missTolerance:5;
-  
-  "
+   filterMinCF:0.05; filterBeta: 0.05;missTolerance:5;"
   color-space="sRGB"
   renderer="colorManagement: true; physicallyCorrectLights: true"
   vr-mode-ui="enabled: false"
@@ -29,7 +27,8 @@
     <a-gltf-model
       src="#myModel"
       position="0 0 0"
-      scale="0 0 0.5">
+      scale="0.5 0.5 0.5"
+      rotation="90 0 0">
     </a-gltf-model>
   </a-entity>
 
